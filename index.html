@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="fa">
 <head>
   <meta charset="UTF-8" />
@@ -12,51 +12,71 @@
       background: linear-gradient(120deg, #0f0f0f, #1b1b1b);
       color: #eee;
       text-align: center;
-      padding: 40px;
+      padding: 20px;
+      margin: 0;
       direction: rtl;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
     }
+
     h1 {
-      font-size: 32px;
+      font-size: clamp(26px, 5vw, 32px);
       color: #00ffaa;
       margin-bottom: 10px;
     }
+
     p {
-      font-size: 16px;
+      font-size: clamp(14px, 3vw, 16px);
       margin-bottom: 10px;
+      max-width: 500px;
     }
+
     code {
       background: #222;
       padding: 6px 12px;
       border-radius: 6px;
-      font-size: 15px;
+      font-size: clamp(13px, 2.5vw, 15px);
       direction: ltr;
       display: inline-block;
       margin-top: 10px;
       color: #00ffaa;
+      word-wrap: break-word;
     }
+
     .btn {
       background: #00ffaa;
       color: #000;
-      padding: 15px 30px;
+      padding: 12px 24px;
       border: none;
       border-radius: 10px;
-      font-size: 18px;
+      font-size: clamp(16px, 3vw, 18px);
       cursor: pointer;
       text-decoration: none;
-      display: inline-block;
       transition: 0.3s ease;
-      margin: 30px 10px;
+      margin: 15px 10px;
+      display: inline-block;
+      width: fit-content;
     }
+
     .btn:hover {
       background: #00dd99;
     }
+
     .section {
-      margin-top: 50px;
+      margin-top: 30px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
     }
+
     .footer {
       font-size: 14px;
       margin-top: 60px;
       color: #aaa;
+      max-width: 500px;
+      text-align: center;
     }
   </style>
 </head>
@@ -71,7 +91,7 @@
     <a class="btn" href="https://t.me/Amanix_Token" target="_blank">📣 عضویت در تلگرام Amanix</a>
   </div>
 
-  <div class="section footer">
+  <div class="footer">
     <p>🔧 توسعه داده شده توسط تیم <strong>Amanix</strong></p>
     <p>ما در Amanix برای ساخت آینده‌ای غیرمتمرکز، سریع و قابل‌اعتماد تلاش می‌کنیم.</p>
   </div>
