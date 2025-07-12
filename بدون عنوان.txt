@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AMX Token</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Vazirmatn&display=swap');
+
+    body {
+      font-family: 'Vazirmatn', sans-serif;
+      background: linear-gradient(120deg, #0f0f0f, #1b1b1b);
+      color: #eee;
+      text-align: center;
+      padding: 40px;
+      direction: rtl;
+    }
+    h1 {
+      font-size: 32px;
+      color: #00ffaa;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+    code {
+      background: #222;
+      padding: 6px 12px;
+      border-radius: 6px;
+      font-size: 15px;
+      direction: ltr;
+      display: inline-block;
+      margin-top: 10px;
+      color: #00ffaa;
+    }
+    .btn {
+      background: #00ffaa;
+      color: #000;
+      padding: 15px 30px;
+      border: none;
+      border-radius: 10px;
+      font-size: 18px;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+      transition: 0.3s ease;
+      margin: 30px 10px;
+    }
+    .btn:hover {
+      background: #00dd99;
+    }
+    .section {
+      margin-top: 50px;
+    }
+    .footer {
+      font-size: 14px;
+      margin-top: 60px;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <h1>🚀 توکن AMX</h1>
+  <p>توکن رسمی AMX روی شبکه Avalanche</p>
+  <p>آدرس قرارداد:</p>
+  <code>0xa108E1d804C7E9B4354d3279c36589fAb7B48290</code>
+
+  <div class="section">
+    <a class="btn" href="https://www.sushi.com/swap?chainId=43114&token0=AVAX&token1=0xa108E1d804C7E9B4354d3279c36589fAb7B48290" target="_blank">🛒 خرید AMX از SushiSwap</a>
+    <a class="btn" href="https://t.me/Amanix_Token" target="_blank">📣 عضویت در تلگرام Amanix</a>
+  </div>
+
+  <div class="section footer">
+    <p>🔧 توسعه داده شده توسط تیم <strong>Amanix</strong></p>
+    <p>ما در Amanix برای ساخت آینده‌ای غیرمتمرکز، سریع و قابل‌اعتماد تلاش می‌کنیم.</p>
+  </div>
+</body>
+</html>
